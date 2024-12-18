@@ -1,0 +1,455 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "https://admin-shell.io/aas/3/0", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "https://schema.org", "https://standards.iso.org/iso/21597/-1/ed-1/en/Container", "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd",
+    "author" : [ "_:genid2147483649", "_:genid2147483648" ],
+    "labels" : {
+      "undefined" : "ICDD submodel for the AAS"
+    },
+    "comments" : {
+      "en" : "Provides a submodel alignment for the AAS representing data that is stored in ICDD containers."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483649",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2024-12-18",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "aas+icdd",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://github.com/RUB-Informatik-im-Bauwesen/aas",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#SecuredDocument",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SecuredDocument"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#EncryptedDocument",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EncryptedDocument"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://admin-shell.io/aas/3/0/Key",
+    "baseIri" : "https://admin-shell.io/aas/3/0",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Key"
+    },
+    "subClasses" : [ "8", "9", "3" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://schema.org/Person",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://admin-shell.io/aas/3/0/SubmodelElement",
+    "baseIri" : "https://admin-shell.io/aas/3/0",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubmodelElement"
+    },
+    "subClasses" : [ "7", "11", "13", "0", "8", "5", "9", "19", "20", "3" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://admin-shell.io/aas/3/0/Submodel",
+    "baseIri" : "https://admin-shell.io/aas/3/0",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Submodel"
+    },
+    "subClasses" : [ "24" ],
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Document"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "25", "1" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InternalDocument"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StringBasedIdentifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "1", "4" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ExternalDocument",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExternalDocument"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Linkset"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "25", "1" ]
+  }, {
+    "iri" : "https://admin-shell.io/aas/3/0/SubmodelElementList",
+    "baseIri" : "https://admin-shell.io/aas/3/0",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubmodelElementList"
+    },
+    "subClasses" : [ "11", "26", "19", "27" ],
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ContainerDescription",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ContainerDescription"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "URIBasedIdentifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "1", "4" ]
+  }, {
+    "iri" : "https://admin-shell.io/aas/3/0/Reference",
+    "baseIri" : "https://admin-shell.io/aas/3/0",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reference"
+    },
+    "subClasses" : [ "27" ],
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Identifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "1", "4" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LinkElement"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "25", "28" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Party",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Party"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link",
+    "baseIri" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Link"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "25" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "2"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
+  }, {
+    "range" : "1",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "10"
+  }, {
+    "range" : "1",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "12"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "14"
+  }, {
+    "range" : "1",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "4",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "25",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "25",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "23",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "25",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "25",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "1",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  } ]
+}

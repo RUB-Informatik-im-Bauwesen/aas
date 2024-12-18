@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd#"
+     xml:base="https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:Key="https://admin-shell.io/aas/3/0/Key/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:schema="https://schema.org/"
+     xmlns:Linkset="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#"
+     xmlns:Submodel="https://admin-shell.io/aas/3/0/Submodel/"
+     xmlns:Container="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#"
+     xmlns:Reference="https://admin-shell.io/aas/3/0/Reference/"
+     xmlns:SubmodelElementList="https://admin-shell.io/aas/3/0/SubmodelElementList/"
+     xmlns:AdministrativeInformation="https://admin-shell.io/aas/3/0/AdministrativeInformation/">
+    <owl:Ontology rdf:about="https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd">
+        <owl:imports rdf:resource="https://admin-shell.io/aas/3/0/"/>
+        <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Container"/>
+        <owl:imports rdf:resource="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-18</dc:created>
+        <dc:creator rdf:nodeID="genid1"/>
+        <dc:creator rdf:nodeID="genid3"/>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/RUB-Informatik-im-Bauwesen/aas</dc:source>
+        <vann:preferredNamespacePrefix>aas+icdd</vann:preferredNamespacePrefix>
+        <rdfs:comment xml:lang="en">Provides a submodel alignment for the AAS representing data that is stored in ICDD containers.</rdfs:comment>
+        <rdfs:label>ICDD submodel for the AAS</rdfs:label>
+    </owl:Ontology>
+    <rdf:Description rdf:nodeID="genid1">
+        <rdf:type rdf:resource="https://schema.org/Person"/>
+        <schema:email rdf:resource="mailto:philipp.hagedorn-n6v@rub.de"/>
+        <schema:identifier rdf:resource="https://orcid.org/0000-0002-6249-243X"/>
+        <schema:memberOf rdf:nodeID="genid2"/>
+        <schema:name>Dr. Philipp Hagedorn</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="https://schema.org/Person"/>
+        <schema:email rdf:resource="mailto:simon.kosse@rub.de"/>
+        <schema:identifier rdf:resource="https://orcid.org/0000-0002-6391-784X"/>
+        <schema:memberOf rdf:nodeID="genid4"/>
+        <schema:name>Simon Kosse</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid2">
+        <schema:identifier rdf:resource="https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/philipp_hagedorn.html.en"/>
+        <schema:name>Ruhr University Bochum, DE</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <schema:identifier rdf:resource="https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/simon_kosse.html.en"/>
+        <schema:name>Ruhr University Bochum, DE</schema:name>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/created"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/AdministrativeInformation/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="https://admin-shell.io/aas/3/0/AdministrativeInformation/creator"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/Key/value -->
+
+
+    <owl:AnnotationProperty rdf:about="https://admin-shell.io/aas/3/0/Key/value"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/Reference/keys -->
+
+
+    <owl:AnnotationProperty rdf:about="https://admin-shell.io/aas/3/0/Reference/keys"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/Submodel/submodelElements -->
+
+
+    <owl:AnnotationProperty rdf:about="https://admin-shell.io/aas/3/0/Submodel/submodelElements"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement -->
+
+
+    <owl:AnnotationProperty rdf:about="https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/SubmodelElementList/value -->
+
+
+    <owl:AnnotationProperty rdf:about="https://admin-shell.io/aas/3/0/SubmodelElementList/value"/>
+    
+
+
+    <!-- https://schema.org/email -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/email"/>
+    
+
+
+    <!-- https://schema.org/identifier -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/identifier"/>
+    
+
+
+    <!-- https://schema.org/memberOf -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/memberOf"/>
+    
+
+
+    <!-- https://schema.org/name -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/name"/>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsDocument -->
+
+
+    <owl:AnnotationProperty rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsDocument">
+        <rdfs:subPropertyOf rdf:resource="https://admin-shell.io/aas/3/0/Submodel/submodelElements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsLinkset -->
+
+
+    <owl:AnnotationProperty rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsLinkset">
+        <rdfs:subPropertyOf rdf:resource="https://admin-shell.io/aas/3/0/Submodel/submodelElements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#createdBy -->
+
+
+    <owl:AnnotationProperty rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#createdBy">
+        <rdfs:subPropertyOf rdf:resource="https://admin-shell.io/aas/3/0/AdministrativeInformation/creator"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasDocument -->
+
+
+    <owl:AnnotationProperty rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasDocument">
+        <rdfs:subPropertyOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElementList/value"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier -->
+
+
+    <owl:AnnotationProperty rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://admin-shell.io/aas/3/0/Reference/keys"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement -->
+
+
+    <owl:AnnotationProperty rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement">
+        <rdfs:subPropertyOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier -->
+
+
+    <owl:AnnotationProperty rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier">
+        <rdfs:subPropertyOf rdf:resource="https://admin-shell.io/aas/3/0/Key/value"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#uri -->
+
+
+    <owl:AnnotationProperty rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#uri">
+        <rdfs:subPropertyOf rdf:resource="https://admin-shell.io/aas/3/0/Key/value"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/Key -->
+
+
+    <owl:Class rdf:about="https://admin-shell.io/aas/3/0/Key"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/Reference -->
+
+
+    <owl:Class rdf:about="https://admin-shell.io/aas/3/0/Reference"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/Submodel -->
+
+
+    <owl:Class rdf:about="https://admin-shell.io/aas/3/0/Submodel"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/SubmodelElement -->
+
+
+    <owl:Class rdf:about="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    
+
+
+    <!-- https://admin-shell.io/aas/3/0/SubmodelElementList -->
+
+
+    <owl:Class rdf:about="https://admin-shell.io/aas/3/0/SubmodelElementList"/>
+    
+
+
+    <!-- https://schema.org/Person -->
+
+
+    <owl:Class rdf:about="https://schema.org/Person"/>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ContainerDescription -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ContainerDescription">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/Submodel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElementList"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#EncryptedDocument -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#EncryptedDocument">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ExternalDocument -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ExternalDocument">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElementList"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Party -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Party">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Container#SecuredDocument -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Container#SecuredDocument">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/Key"/>
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElementList"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/Reference"/>
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElementList"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/Key"/>
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier -->
+
+
+    <owl:Class rdf:about="https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier">
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/Key"/>
+        <rdfs:subClassOf rdf:resource="https://admin-shell.io/aas/3/0/SubmodelElement"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

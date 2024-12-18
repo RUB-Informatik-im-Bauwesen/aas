@@ -1,0 +1,211 @@
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://www.w3.org/2002/07/owl#imports> <https://admin-shell.io/aas/3/0/> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://www.w3.org/2002/07/owl#imports> <https://standards.iso.org/iso/21597/-1/ed-1/en/Container> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://www.w3.org/2002/07/owl#imports> <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://purl.org/dc/elements/1.1/created> "2024-12-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://purl.org/dc/elements/1.1/creator> _:genid1 .
+_:genid1 <https://schema.org/name> "Dr. Philipp Hagedorn" .
+_:genid1 <https://schema.org/memberOf> _:genid2 .
+_:genid2 <https://schema.org/name> "Ruhr University Bochum, DE" .
+_:genid2 <https://schema.org/identifier> <https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/philipp_hagedorn.html.en> .
+_:genid1 <https://schema.org/identifier> <https://orcid.org/0000-0002-6249-243X> .
+_:genid1 <https://schema.org/email> <mailto:philipp.hagedorn-n6v@rub.de> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
+<https://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://purl.org/dc/elements/1.1/creator> _:genid3 .
+_:genid3 <https://schema.org/name> "Simon Kosse" .
+_:genid3 <https://schema.org/memberOf> _:genid4 .
+_:genid4 <https://schema.org/name> "Ruhr University Bochum, DE" .
+_:genid4 <https://schema.org/identifier> <https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/simon_kosse.html.en> .
+_:genid3 <https://schema.org/identifier> <https://orcid.org/0000-0002-6391-784X> .
+_:genid3 <https://schema.org/email> <mailto:simon.kosse@rub.de> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://purl.org/dc/elements/1.1/source> "https://github.com/RUB-Informatik-im-Bauwesen/aas"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://purl.org/vocab/vann/preferredNamespacePrefix> "aas+icdd" .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides a submodel alignment for the AAS representing data that is stored in ICDD containers."@en .
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> <http://www.w3.org/2000/01/rdf-schema#label> "ICDD submodel for the AAS" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/source
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://admin-shell.io/aas/3/0/AdministrativeInformation/creator
+<https://admin-shell.io/aas/3/0/AdministrativeInformation/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://admin-shell.io/aas/3/0/Key/value
+<https://admin-shell.io/aas/3/0/Key/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://admin-shell.io/aas/3/0/Reference/keys
+<https://admin-shell.io/aas/3/0/Reference/keys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://admin-shell.io/aas/3/0/Submodel/submodelElements
+<https://admin-shell.io/aas/3/0/Submodel/submodelElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement
+<https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://admin-shell.io/aas/3/0/SubmodelElementList/value
+<https://admin-shell.io/aas/3/0/SubmodelElementList/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/email
+<https://schema.org/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/identifier
+<https://schema.org/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/memberOf
+<https://schema.org/memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/name
+<https://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsDocument
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsDocument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://admin-shell.io/aas/3/0/Submodel/submodelElements> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsLinkset
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsLinkset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsLinkset> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://admin-shell.io/aas/3/0/Submodel/submodelElements> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#createdBy
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#createdBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#createdBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://admin-shell.io/aas/3/0/AdministrativeInformation/creator> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasDocument
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasDocument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://admin-shell.io/aas/3/0/SubmodelElementList/value> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://admin-shell.io/aas/3/0/Reference/keys> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://admin-shell.io/aas/3/0/Key/value> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#uri
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#uri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://admin-shell.io/aas/3/0/Key/value> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://admin-shell.io/aas/3/0/Key
+<https://admin-shell.io/aas/3/0/Key> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://admin-shell.io/aas/3/0/Reference
+<https://admin-shell.io/aas/3/0/Reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://admin-shell.io/aas/3/0/Submodel
+<https://admin-shell.io/aas/3/0/Submodel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://admin-shell.io/aas/3/0/SubmodelElement
+<https://admin-shell.io/aas/3/0/SubmodelElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://admin-shell.io/aas/3/0/SubmodelElementList
+<https://admin-shell.io/aas/3/0/SubmodelElementList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://schema.org/Person
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ContainerDescription
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ContainerDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ContainerDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/Submodel> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElementList> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#EncryptedDocument
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#EncryptedDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#EncryptedDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ExternalDocument
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ExternalDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ExternalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElementList> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Party
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Party> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Party> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Container#SecuredDocument
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#SecuredDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Container#SecuredDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/Key> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElementList> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/Reference> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElementList> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/Key> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+# 
+# https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/Key> .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://admin-shell.io/aas/3/0/SubmodelElement> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

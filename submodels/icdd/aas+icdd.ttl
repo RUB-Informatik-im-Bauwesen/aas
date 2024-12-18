@@ -1,0 +1,131 @@
+# baseURI: http://inf.bi.rub.de/dt/rami+icdd
+# imports: https://admin-shell.io/aas/3/0/
+# imports: https://standards.iso.org/iso/21597/-1/ed-1/en/Container
+# imports: https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset
+# prefix: icdd
+
+@prefix Container: <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#> .
+@prefix ExtendedLinkset: <https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#> .
+@prefix Linkset: <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix aas: <https://admin-shell.io/aas/3/0/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix icdd: <https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd>
+  rdf:type owl:Ontology ;
+  owl:imports <https://admin-shell.io/aas/3/0/> ;
+  owl:imports <https://standards.iso.org/iso/21597/-1/ed-1/en/Container> ;
+  owl:imports <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset> ;
+  dc:created "2024-12-18"^^xsd:date ;
+  dc:creator [
+      rdf:type schema:Person ;
+      schema:email <mailto:philipp.hagedorn-n6v@rub.de> ;
+      schema:identifier <https://orcid.org/0000-0002-6249-243X> ;
+      schema:memberOf [
+          schema:identifier <https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/philipp_hagedorn.html.en> ;
+          schema:name "Ruhr University Bochum, DE" ;
+        ] ;
+      schema:name "Dr. Philipp Hagedorn" ;
+    ] ;
+  dc:creator [
+      rdf:type schema:Person ;
+      schema:email <mailto:simon.kosse@rub.de> ;
+      schema:identifier <https://orcid.org/0000-0002-6391-784X> ;
+      schema:memberOf [
+          schema:identifier <https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/simon_kosse.html.en> ;
+          schema:name "Ruhr University Bochum, DE" ;
+        ] ;
+      schema:name "Simon Kosse" ;
+    ] ; 
+  dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dc:source "https://github.com/RUB-Informatik-im-Bauwesen/aas"^^xsd:anyURI ;
+  vann:preferredNamespacePrefix "aas+icdd" ;
+  rdfs:comment "Provides a submodel alignment for the AAS representing data that is stored in ICDD containers."@en ;
+  rdfs:label "ICDD submodel for the AAS" ;
+.
+
+Container:ContainerDescription
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/Submodel> ;
+.
+Container:Document
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> , <https://admin-shell.io/aas/3/0/SubmodelElementList>  ;
+.
+Container:InternalDocument
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> ;
+.
+Container:ExternalDocument
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> ;
+.
+Container:SecuredDocument
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> ;
+.
+Container:EncryptedDocument
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> ;
+.
+Container:Linkset
+  rdfs:subClassOf owl:Thing ;
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> , <https://admin-shell.io/aas/3/0/SubmodelElementList>  ;
+.
+Container:Party
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> ;
+.
+Container:containsDocument
+  rdfs:subPropertyOf <https://admin-shell.io/aas/3/0/Submodel/submodelElements> ;
+.
+Container:containsLinkset
+  rdfs:subPropertyOf <https://admin-shell.io/aas/3/0/Submodel/submodelElements> ;
+.
+Container:createdBy
+  rdfs:subPropertyOf <https://admin-shell.io/aas/3/0/AdministrativeInformation/creator> ;
+.
+Container:description
+  owl:equivalentProperty <http://admin-shell.io/aas/3/0/Referable/description> ;
+.
+
+
+Linkset:Link
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElementList> ;
+.
+Linkset:hasLinkElement
+  rdfs:subPropertyOf <https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement> ;
+.
+
+Linkset:LinkElement
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/Reference>, <https://admin-shell.io/aas/3/0/SubmodelElementList>;
+.
+Linkset:hasDocument
+  rdfs:subPropertyOf <https://admin-shell.io/aas/3/0/SubmodelElementList/value> ;
+.
+Linkset:hasIdentifier
+  rdfs:subPropertyOf <https://admin-shell.io/aas/3/0/Reference/keys> ;
+.
+
+
+Linkset:Identifier
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/Key> ;
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> ;
+.
+Linkset:StringBasedIdentifier
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/Key> ;
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> ;
+.
+Linkset:URIBasedIdentifier
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/Key> ;
+  rdfs:subClassOf <https://admin-shell.io/aas/3/0/SubmodelElement> ;
+.
+Linkset:uri
+  rdfs:subPropertyOf <https://admin-shell.io/aas/3/0/Key/value>;
+.
+
+Linkset:identifier
+  rdfs:subPropertyOf <https://admin-shell.io/aas/3/0/Key/value>;
+.

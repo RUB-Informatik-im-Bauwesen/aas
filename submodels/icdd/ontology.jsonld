@@ -1,0 +1,293 @@
+[ {
+  "@id" : "_:genid1",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://schema.org/Person"
+  } ],
+  "https://schema.org/email" : [ {
+    "@id" : "mailto:philipp.hagedorn-n6v@rub.de"
+  } ],
+  "https://schema.org/identifier" : [ {
+    "@id" : "https://orcid.org/0000-0002-6249-243X"
+  } ],
+  "https://schema.org/memberOf" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Dr. Philipp Hagedorn"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "https://schema.org/identifier" : [ {
+    "@id" : "https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/philipp_hagedorn.html.en"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Ruhr University Bochum, DE"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://schema.org/Person"
+  } ],
+  "https://schema.org/email" : [ {
+    "@id" : "mailto:simon.kosse@rub.de"
+  } ],
+  "https://schema.org/identifier" : [ {
+    "@id" : "https://orcid.org/0000-0002-6391-784X"
+  } ],
+  "https://schema.org/memberOf" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Simon Kosse"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "https://schema.org/identifier" : [ {
+    "@id" : "https://www.inf.bi.ruhr-uni-bochum.de/iib/lehrstuhl/mitarbeiter/simon_kosse.html.en"
+  } ],
+  "https://schema.org/name" : [ {
+    "@value" : "Ruhr University Bochum, DE"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/AdministrativeInformation/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/Key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/Key/value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/Reference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/Reference/keys",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/Submodel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/Submodel/submodelElements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList/value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://rub-informatik-im-bauwesen.github.io/aas/submodels/icdd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-12-18"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid3"
+  } ],
+  "http://purl.org/dc/elements/1.1/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/elements/1.1/source" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/RUB-Informatik-im-Bauwesen/aas"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "aas+icdd"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Provides a submodel alignment for the AAS representing data that is stored in ICDD containers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ICDD submodel for the AAS"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/"
+  }, {
+    "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container"
+  }, {
+    "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset"
+  } ]
+}, {
+  "@id" : "https://schema.org/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://schema.org/email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/memberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ContainerDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Submodel"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  }, {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#EncryptedDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#ExternalDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#InternalDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Linkset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  }, {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Party",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#SecuredDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Submodel/submodelElements"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#containsLinkset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Submodel/submodelElements"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Container#createdBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/AdministrativeInformation/creator"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Key"
+  }, {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Reference"
+  }, {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Key"
+  }, {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Key"
+  }, {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList/value"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Reference/keys"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/SubmodelElementList/semanticIdListElement"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Key/value"
+  } ]
+}, {
+  "@id" : "https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#uri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://admin-shell.io/aas/3/0/Key/value"
+  } ]
+} ]
